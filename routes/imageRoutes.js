@@ -71,8 +71,8 @@ router.post("/AiCreation", async (req, res) => {
         model: "Flux1schnell",
         prompt,
         steps: 4,
-        width: 1024,
-        height: 1024,
+        width: 1920,
+        height: 1080,
         seed,
       },
       {
